@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import AutosuggestDropdown from '../AutosuggestDropdown'
+import AutosuggestDropdown from './AutosuggestDropdown'
 
 class ReactTagAutoSuggestDropdown extends Component {
   constructor(){
