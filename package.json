@@ -1,6 +1,6 @@
 {
   "name": "react-tag-autosuggest-dropdown-menu",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A tagging component that has an autosuggest dropdown menu that highlights the matching characters.",
   "main": "build/index.js",
   "peerDependencies": {

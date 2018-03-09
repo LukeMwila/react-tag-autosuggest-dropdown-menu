@@ -1,7 +1,7 @@
 /* Custom dropdown menu */
 
 .standard-input-field{
-  width: calc(100% - 5px);
+  /* width: calc(100% - 5px); */
   height: 31px;
   background: #fff;
   font-family: Avenir;
@@ -10,10 +10,29 @@
   line-height: 2.58;
   text-align: left;
   color: #4a4a4a;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  border: none;
   border-radius: 2px;
   outline: 0;
   padding: 5px;
+}
+
+.tag-auto-suggest-container{
+  border: 1px solid #ccc;
+  text-align: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.tag-auto-suggest-container button{
+  width: auto;
+  background: #f2f2f2;
+  color: #666;
+  border-radius: 2px;
+  border: 1px solid #666;
+  padding: 7px 4px 7px 4px;
+  margin-right: 5px;
+  outline: 0;
 }
 
 .standard-dropdown-menu{
